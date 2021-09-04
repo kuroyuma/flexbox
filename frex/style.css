@@ -2,10 +2,29 @@
   background-color: #00c7ce;
   height: 50vh;
   padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .flex > div{
   background-color: #fff;
   margin: 5px;
   font-size: 30px;
+}
+
+.flex > div:nth-child(1){
+  order: 3;
+}
+
+.flex > div:nth-child(2){
+  order: 4;
+}
+
+.flex > div:nth-child(3){
+  order: 1;
+}
+
+.flex > div:nth-child(4){
+  order: 2;
 }
